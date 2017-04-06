@@ -14,5 +14,10 @@ namespace _2014214451
         {
         }
 
+        public int Bus(int numAsientos)
+        {
+            int numA = numAsientos;
+            return numA;
+        }
     }
 }

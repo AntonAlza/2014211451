@@ -14,7 +14,9 @@ namespace _2014214451
         {
         }
 
-
+        public Automovil()
+        {
+        }
 
 
     }
