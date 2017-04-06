@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace _2014214451
 {
-    public class Llanta
+    public class Volante
     {
         string NumSerie { get; set; }
 
-        public Llanta()
+        public Volante()
         {
         }
-        public Llanta(string _NumSerie)
+        public Volante(string _NumSerie)
         {
             NumSerie = _NumSerie;
         }

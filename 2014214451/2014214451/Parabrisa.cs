@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace _2014214451
 {
-    public class Llanta
+    public class Parabrisa
     {
-        string NumSerie { get; set; }
+        string Numserie { get; set; }
 
-        public Llanta()
+        public Parabrisa()
         {
         }
-        public Llanta(string _NumSerie)
+
+        public Parabrisa(string _Numserie)
         {
-            NumSerie = _NumSerie;
+            Numserie = _Numserie;
         }
     }
 }

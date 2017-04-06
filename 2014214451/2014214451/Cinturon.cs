@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace _2014214451
 {
-    public class Llanta
+    public class Cinturon
     {
-        string NumSerie { get; set; }
+        string NumSerie {get; set;}
+        int metraje;
 
-        public Llanta()
+        public Cinturon()
         {
+            
         }
-        public Llanta(string _NumSerie)
+        public Cinturon(string _NumSerie, int _metraje)
         {
             NumSerie = _NumSerie;
+            metraje = _metraje;
         }
     }
 }
